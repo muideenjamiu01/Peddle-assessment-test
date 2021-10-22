@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+    .carousels{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .section.get-started{
+        padding: 20px 0;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .section.get-started{
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,34 @@
+/*  FEATURES */
+
+.features {
+    width: 100%;
+    padding: 60px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-content p {
+    margin-top: 20px;
+}
+
+.feature-item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.checkmark {
+    padding: 10px 10px;
+    background: #BA55D3;
+    border-radius: 4px;
+}
+
+.feature-item span {
+    margin-left: 10px;
+}
+.features-img{
+    width: 20%;
+    margin-right:5%;
+    
+}
+

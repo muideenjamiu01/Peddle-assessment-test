@@ -1,0 +1,58 @@
+footer{
+    
+    background-color:#F8F8F8;
+    position: relative;
+    z-index: 1000;
+}
+
+footer ul li a{
+    
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    transition: all .5s;
+}
+
+.footer li{
+    padding: 10px 0;
+}
+
+.footer-content{
+    padding-top: 16%;
+    position: absolute;
+    /* padding: 80px 0; */
+    
+    margin: 0 90px;
+    display: grid;
+    grid-column-gap: 150px;
+    grid-template-columns:400px 100px 90px 90px;
+}
+
+
+.engaged li{
+    width: max-content;
+}
+.money li{
+    width: max-content;
+}
+.foot-head{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.foot-p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #AFB5C0;
+}
+
+
+ion-icon{
+    margin: 0 5px;
+}

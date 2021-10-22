@@ -1,0 +1,43 @@
+@media only screen and (max-width: 900px) {
+    
+    
+    .get-started_content {
+       margin-top: 50px;
+       margin-right: 10px;
+       
+        
+      
+    } 
+   .start-img{
+       margin-top: 40px;
+       width: max-content;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    .get-started {
+        margin: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       padding-bottom: 30px;
+    }
+    .get-started_content {
+        /* margin-top: 10px; */
+        margin-bottom: 30%;
+         
+       
+    }
+     .start-img {
+        width: 100%;
+        margin-top: 10%;
+        padding-right:30%;
+     } 
+   
+}
+
+  
+
+/* @media only screen and (max-width: 1200px) {
+    
+}  */

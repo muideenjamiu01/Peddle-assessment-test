@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+    .engaged li{
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .section.get-started{
+        padding: 20px 0;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .section.get-started{
+        padding: 20px 0;
+    }
+}

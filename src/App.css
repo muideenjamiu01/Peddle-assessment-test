@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+body {
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    /* overflow-x: hidden; */
+}
+.container {
+    background-color: #fff;
+    margin: 60px 80px;
+    
+}
+a{
+    text-decoration: none;
+}
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+    text-shadow: 0px 2px 4px #BA55D3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h5 {
+    text-align: center;
+    padding: 20px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+ }
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.container_2 {
+    background-color: #F6F6F6;
+    position: relative;
+    
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container2_content {
+    margin: 0 60px;
+    position: relative;
+}
+@media only screen and (max-width: 900px) {
+    body{
+        
+    }
+}
+
+@media only screen and (max-width:600px) {
+    h1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        color: #0B132A;
+        text-shadow: 0px 2px 4px #BA55D3;
+    }
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 15px;
+        color: #4F5665;
+        margin: 20px 0;
+    }
 }

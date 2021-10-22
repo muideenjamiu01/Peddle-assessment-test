@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/navbar/navbar';
+import About from './components/getStarted/GetStarted';
+import User from './components/Users/user.js';
+import Feature from './components/Features/Feature';
+import Plan from './components/Plan/Plan';
+import Peddle from './components/PeddleToday/Peddle';
+import Testimonial from './components/Testimonials/Testimonial';
+import Subscribe from './components/Subscriber/Subscribe';
+import Footer from './components/Footer/Footer';
+
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+  const App = () => {
+    return (
+        <div>
+           <Navbar/>
+           <About/>
+           <User/>
+           <Feature/>
+           <Plan/>
+           <Peddle/>
+           <Testimonial/>
+           <Subscribe/>
+           <Footer/>
+          
+           
+        </div>
+            
+    );
+};
 export default App;
+

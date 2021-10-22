@@ -1,0 +1,35 @@
+.subscriber {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 90px; */
+    left: 85px;
+    top: 140px;
+    bottom: -100px;
+    background-color: #fff;
+    padding: 60px 100px;
+    position: relative;
+    z-index: 2000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.btn-subscribe a {
+    /* width: 250px;
+    height: 60px; */
+    color: #fff;
+    text-align: center;
+    padding: 20px 40px;
+    background: #BA55D3;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    box-shadow: #BA55D3 0 20px 50px -10px;
+    transition: all .5s;
+    cursor: pointer;
+}
+

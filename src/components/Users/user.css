@@ -1,0 +1,51 @@
+/* users section */
+
+.lasles-users {
+    margin-top: 5%;
+    
+}
+
+.user-container {
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 50px 70px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.users {
+    border-right: 2px solid #EEEFF2;
+    padding-right: 120px;
+    height: 100px;
+}
+
+.servers {
+    margin-right: 30px;
+    border-left: 2px solid #EEEFF2;
+    padding-left: 120px;
+    height: 100px;
+}
+
+.users-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users-icon {
+    margin-right: 20px;
+    padding: 10px 10px;
+    background:  rgba(186, 85, 211, 0.25);
+    border-radius: 50%;
+    align-self: center;
+    color: #BA55D3;
+}
+
+.user-heading {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}

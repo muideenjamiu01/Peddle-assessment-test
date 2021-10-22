@@ -1,0 +1,36 @@
+
+.peddle{
+    padding: 10% 0;
+}
+.peddle-heading {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.peddle-btn a {
+    margin-top: 10px;
+    position: absolute;
+    left: 40%;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #BA55D3;
+    border-radius: 4px; 
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    box-shadow: #BA55D3 0 20px 50px -10px;
+}
+.logos {
+    margin-top:10% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
